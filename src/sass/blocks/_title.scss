@@ -1,0 +1,26 @@
+.title {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 140%;
+    /* or 73px */
+
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+    &_promo {
+        margin-top: 168px;
+        font-weight: 700;
+        font-size: 150px;
+        line-height: 125%;
+        /* identical to box height, or 188px */
+
+        text-align: center;
+
+        /* accent */
+
+        color: #DB3138;
+    }
+}
