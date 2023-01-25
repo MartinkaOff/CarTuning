@@ -1,4 +1,4 @@
-import rombs from './modules/rombs';
+import {rombs} from './modules/rombs'
 
 window.addEventListener('DOMContentLoaded',  () => {
   rombs();

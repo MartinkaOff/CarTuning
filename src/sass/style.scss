@@ -1,5 +1,6 @@
 @import 'libs/font';
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/_bootstrap.min.css';
 
 * {
     font-family: 'ReformaGrotesk';
@@ -15,3 +16,4 @@
 @import 'blocks/promo';
 @import 'blocks/title';
 @import 'blocks/achievements';
+@import 'blocks/slider';

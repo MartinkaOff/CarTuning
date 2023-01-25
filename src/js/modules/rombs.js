@@ -1,5 +1,4 @@
-window.addEventListener('DOMContentLoaded',  () => {
-    // add rombs
+const rombs = () => {
     let rombsWrapper = document.querySelectorAll('.rombs');
 
     rombsWrapper.forEach(rombs => {
@@ -21,6 +20,5 @@ window.addEventListener('DOMContentLoaded',  () => {
             rombs.append(romb);
         }
     });
-
-    
-});
+}
+export default rombs;
