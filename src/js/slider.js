@@ -8,7 +8,15 @@ const slider = () => {
         "mouseDrag": true,
         "swipeAngle": false,
         "speed": 400,
-        "nav": false,
+        "nav": false
+    });
+    let sliderGuarantee = tns({
+        "container": '.guarantee__slider',
+        "controlsContainer": ".slider__controls-guarantee",
+        "items": 1,
+        "swipeAngle": false,
+        "speed": 400,
+        "mouseDrag": true,
     });
 }
 export default slider;

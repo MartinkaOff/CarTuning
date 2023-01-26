@@ -163,6 +163,14 @@ const slider = () => {
     "speed": 400,
     "nav": false
   });
+  let sliderGuarantee = tns({
+    "container": '.guarantee__slider',
+    "controlsContainer": ".slider__controls-guarantee",
+    "items": 1,
+    "swipeAngle": false,
+    "speed": 400,
+    "mouseDrag": true
+  });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (slider);

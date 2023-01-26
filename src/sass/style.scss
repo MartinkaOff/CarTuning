@@ -2,6 +2,10 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/_bootstrap.min.css';
 
+body {
+    background: #131313;
+}
+
 * {
     font-family: 'ReformaGrotesk';
     margin: 0;
@@ -17,3 +21,5 @@
 @import 'blocks/title';
 @import 'blocks/achievements';
 @import 'blocks/slider';
+@import 'blocks/gurantee';
+@import 'blocks/sliderSettings'
