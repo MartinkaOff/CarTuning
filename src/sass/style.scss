@@ -7,6 +7,7 @@ body {
 }
 
 * {
+    box-sizing: border-box;
     font-family: 'ReformaGrotesk';
     margin: 0;
     padding: 0;
@@ -22,4 +23,6 @@ body {
 @import 'blocks/achievements';
 @import 'blocks/slider';
 @import 'blocks/gurantee';
-@import 'blocks/sliderSettings'
+@import 'blocks/sliderSettings';
+@import 'blocks/buttons';
+@import 'blocks/services';

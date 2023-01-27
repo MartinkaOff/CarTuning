@@ -1,0 +1,84 @@
+.services {
+    text-align: center;
+    align-items: center;
+    &__tabs {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 450px;
+        height: 75px;
+        &-tab {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 40px 10px;
+            gap: 10px;
+            width: 181px;
+            height: 75px;
+            left: 735px;
+            top: 3735px;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 140%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            &_active {
+                background: #DB3138;
+            }
+        }
+    }
+    &__rombs {
+        width: 300px;
+        transform: translateX(calc(166% - 10px));
+        margin-top: 40px;
+    }
+    &__tabs {
+        margin-top: 61px;
+    }
+    &__wrapper {
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        margin-right: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #898989;
+        width: 306px;
+        height: 428px;
+        &-btn {
+            padding-left: 25px;
+        }
+        &-title {
+            margin-top: 25px;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 140%;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-descr {
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-btn {
+            margin-top: 25px;
+        }
+    }
+}
