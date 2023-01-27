@@ -12,6 +12,10 @@
             top: 80%;
             left: 50%;
         }
+        &-services {
+            top: 83%;
+            left: 0;
+        }
     }
     &-next {
         position: absolute;
@@ -21,6 +25,10 @@
         &-guarantee {
             top: 80%;
             right: 0%;
+        }
+        &-services {
+            top: calc(82.5% + 6px);
+            right: calc(48% + 20px);
         }
     }
 }
