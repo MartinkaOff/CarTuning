@@ -1,0 +1,11 @@
+.ourwork {
+    text-align: center;
+    &__rombs {
+        width: 300px;
+        transform: translateX(calc(235% - 11px));
+        margin-top: 40px;
+    }
+    &__wrapper {
+        margin-top: 61px;
+    }
+}

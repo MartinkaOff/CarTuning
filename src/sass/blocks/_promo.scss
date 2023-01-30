@@ -68,7 +68,7 @@
     &__rombs {
         display: flex;
         position: absolute;
-        transform: translateX(310%);
+        transform: translateX(360%);
     }
 
     &__footer {
@@ -83,6 +83,7 @@
            text-align: center;
        }
        &-title {
+           margin-left: 5%;
             margin-top: 50px;
             font-weight: 600;
             font-size: 18px;
