@@ -36,9 +36,9 @@
         }
     }
     &__rombs {
-        width: 300px;
-        transform: translateX(calc(195% - 10px));
         margin-top: 40px;
+        display: flex;
+        justify-content: center;
     }
     &__tabs {
         margin-top: 61px;

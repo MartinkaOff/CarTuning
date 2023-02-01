@@ -67,8 +67,7 @@
     }
     &__rombs {
         display: flex;
-        position: absolute;
-        transform: translateX(360%);
+        justify-content: center;
     }
 
     &__footer {

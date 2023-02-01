@@ -1,0 +1,100 @@
+.question {
+    padding-top: 120px;
+    text-align: center;
+    &__rombs {
+        display: flex;
+        margin-top: 40px;
+        justify-content: center;
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto; 
+        margin-top: 61px;
+        width: 636px;
+        input {
+            width: 306px;
+            height: 47px;
+            background: #141414;
+            border: 1px solid #898989;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        textarea {
+            margin-top: 24px;
+            width: 526px;
+            height: 150px;
+            resize: none;
+            background: #141414;
+            border: 1px solid #898989;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        button {
+            margin-top: 24px;
+        }
+    }
+    &__social {
+        margin-top: 8px;
+        &-item {
+            cursor: pointer;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #898989;
+            width: 40px;
+            height: 40px;
+            transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+            &:hover {
+                box-shadow: 0 0 40px 40px #e74c3c inset;
+            }
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    &__address {
+        margin-top: 24px;
+        display: flex;
+        width: 300px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &-item {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 140%;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        &-icon {
+            margin-bottom: 4px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
